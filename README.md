@@ -10,7 +10,7 @@ This project is a simple shopping cart application that allows users to add and 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/shopping-cart.git
+    git clone [https://github.com/your-username/shopping-cart.git](https://github.com/12imthi/shopping-cart.git)
     ```
 2. Navigate to the project directory:
     ```bash
@@ -33,3 +33,42 @@ This project is a simple shopping cart application that allows users to add and 
 
 ## Project Structure
 
+shopping-cart/
+│
+├── public/
+│ ├── index.html
+│ └── ...
+│
+├── src/
+│ ├── components/
+│ │ ├── Navbar.js
+│ │ ├── Header.js
+│ │ ├── Items.js
+│ │ ├── ItemCard.js
+│ │ └── Footer.js
+│ │
+│ ├── App.js
+│ ├── App.css
+│ ├── index.js
+│ └── ...
+│
+├── package.json
+└── README.md
+
+## Contributing
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add some feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Open a Pull Request.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Acknowledgments
+
+- [Bootstrap](https://getbootstrap.com/) - CSS Framework
+- [FontAwesome](https://fontawesome.com/) - Icon Library
